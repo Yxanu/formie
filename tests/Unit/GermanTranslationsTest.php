@@ -23,4 +23,6 @@ it('formats German ICU messages using the original parameters', function (string
     'every two years' => ['every {num, number} {num, plural, =1{year} other{years}}', ['num' => 2], 'alle 2 Jahre'],
     'one option' => ['{label} should contain at most {max, number} {max, plural, one{option} other{options}}.', ['label' => 'Auswahl', 'max' => 1], 'Auswahl sollte höchstens 1 Option enthalten.'],
     'multiple options' => ['{label} should contain at most {max, number} {max, plural, one{option} other{options}}.', ['label' => 'Auswahl', 'max' => 2], 'Auswahl sollte höchstens 2 Optionen enthalten.'],
+    'minimum one option' => ['{label} should contain at least {min, number} {min, plural, one{option} other{options}}.', ['label' => 'Auswahl', 'min' => 1], 'Auswahl sollte mindestens 1 Option enthalten.'],
+    'minimum multiple options' => ['{label} should contain at least {min, number} {min, plural, one{option} other{options}}.', ['label' => 'Auswahl', 'min' => 2], 'Auswahl sollte mindestens 2 Optionen enthalten.'],
 ]);

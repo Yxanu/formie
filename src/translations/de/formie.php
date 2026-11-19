@@ -3489,7 +3489,7 @@ Zur Überprüfung bitte im Bedienfeld anmelden.
   '{label} page added.' => 'Seite {label} hinzugefügt.',
   '{label} page deleted.' => '{label} Seite gelöscht.',
   '{label} page selected.' => '{label} Seite ausgewählt.',
-  '{label} should contain at least {min, number} {min, plural, one{option} other{options}}.' => '{label} sollte mindestens {min, number} {min, plural, one{option} other{options}} enthalten.',
+  '{label} should contain at least {min, number} {min, plural, one{option} other{options}}.' => '{label} sollte mindestens {min, number} {min, plural, one{Option} other{Optionen}} enthalten.',
   '{label} should contain at most {max, number} {max, plural, one{option} other{options}}.' => '{label} sollte höchstens {max, number} {max, plural, one{Option} other{Optionen}} enthalten.',
   '{message} {response}. Sent payload {payload}' => '{message} {response}. Nutzdaten {payload} gesendet',
   '{name}: {policy}' => '{name}: {policy}',
